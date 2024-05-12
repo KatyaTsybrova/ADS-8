@@ -3,12 +3,12 @@
 #define INCLUDE_TRAIN_H_
 
 class Train {
-private:
-bool arr[1000] = {false};
-int first = 0, last = 0, now = 0, opCount = 0;
-bool started = false, checked = false;
+ private:
+  bool arr[1000] = {false};
+  int first = 0, last = 0, now = 0, opCount = 0;
+  bool started = false, checked = false;
 
-public:
+ public:
   Train();
   void addCage(bool light);
   int getLength();
